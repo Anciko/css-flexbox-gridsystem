@@ -18,17 +18,18 @@
 .one {
     background-color: cadetblue;
     /* flex-grow: 1; */
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
+    flex-basis: 400px;
 }
 
 .two {
     background-color: coral;
     /* flex-grow:3; */
-    flex-shrink: 2;
+    /* flex-shrink: 2; */
 }
 
 .three {
     background-color: cornflowerblue;
     /* flex-grow: 2; */
-    flex-shrink: 3;
+    /* flex-shrink: 3; */
 }
