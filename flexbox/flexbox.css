@@ -1,5 +1,6 @@
 .wrapper {
-    width: 90%;
+    width: 100%;
+    max-width: 960px;
     margin: 0 auto;
     background-color: #ddd;
 }
@@ -9,22 +10,25 @@
 }
 
 .box {
-    min-width: 100px;
+    width: 320px;
     height: 100px;
     /* flex-grow: 1; */
 }
 
 .one {
     background-color: cadetblue;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    flex-shrink: 1;
 }
 
 .two {
     background-color: coral;
-    flex-grow:3;
+    /* flex-grow:3; */
+    flex-shrink: 2;
 }
 
 .three {
     background-color: cornflowerblue;
-    flex-grow: 2;
+    /* flex-grow: 2; */
+    flex-shrink: 3;
 }
