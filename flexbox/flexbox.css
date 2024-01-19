@@ -1,0 +1,30 @@
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ddd;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.box {
+    min-width: 100px;
+    height: 100px;
+    /* flex-grow: 1; */
+}
+
+.one {
+    background-color: cadetblue;
+    flex-grow: 1;
+}
+
+.two {
+    background-color: coral;
+    flex-grow:3;
+}
+
+.three {
+    background-color: cornflowerblue;
+    flex-grow: 2;
+}
