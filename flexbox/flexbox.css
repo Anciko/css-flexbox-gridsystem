@@ -7,11 +7,17 @@
 
 .flex-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    /* flex-flow: column-reverse; */
 }
 
 .box {
     width: 320px;
     height: 100px;
+    align-items: center;
     /* flex-grow: 1; */
 }
 
@@ -19,7 +25,7 @@
     background-color: cadetblue;
     /* flex-grow: 1; */
     /* flex-shrink: 1; */
-    flex-basis: 400px;
+    /* flex-basis: 400px; */
     /* flex: 1; */
 }
 
