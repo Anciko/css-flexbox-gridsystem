@@ -6,14 +6,15 @@
 .wrapper {
     width: 80%;
     margin: auto;
+    background-color: #333;
 }
 
 
 
 nav ul {
     list-style: none;
-    background-color: #333;
 }
+
 
 li a {
     text-decoration: none;
@@ -27,12 +28,28 @@ li:hover {
     background-color: #f80;
 }
 
+ul.social {
+    display: flex;
+    /* justify-content: center; */
+}
+ ul.social li {
+    flex: 1;
+ }
+
 @media screen and (min-width: 564px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
     nav ul {
         display: flex;
         justify-content: space-between;
     }
     li {
         flex: 1;
+    }
+
+    ul.social  {
+        display: flex;
     }
 }
