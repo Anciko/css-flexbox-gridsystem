@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #f80;
+}
+
+@media screen and (min-width: 564px) {
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    li {
+        flex: 1;
+    }
+}
